@@ -1,0 +1,50 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?"]
+            },
+            {
+              "tag": "capabilities",
+              "patterns": ["What can you do?", "What do you good at?", "How can you help me?", "What capabilities you have?", "How can you help me?", "Your purpose"],
+              "responses": ["I'm bot, I can help you in diagnosing diseases.", "I'm a medical assistant.", "I'm capable of diagnosing various medical conditions."]
+            },
+
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya"],
+             "responses":["have a nice day","goodbye"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation. How old are you?","My age?... I don't know. How old are you?","My owners are averagely 20 years! How old are you?"]
+            },
+            {
+              "tag": "user_age",
+              "patterns": ["I'm 20 years old", "24 years", "years", "years old"],
+              "responses": ["Okay! noted. Are you a male or female?", "You're older than me. Your gender?", "May I know your gender?"]
+            },
+            {
+              "tag": "gender",
+              "patterns": ["I'm a male", "male", "I'm a female", "female", "boy", "girl", "man", "woman"],
+              "responses": ["Okay Noted", "Okey dokey", "aye", "ah ha", "thanks for sharing"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me Medibot!","i am Medibot!","i am Medibot your medical assistant"]
+            },
+            {
+              "tag": "diagnose",
+              "patterns": ["Diagnose", "Can you diagnose me?", "Am I sick?", "I'm not feeling good", "Diagnose me", "I'm sick"],
+              "responses": ["Yeah, lets see..."]
+            },
+            {
+              "tag":"heart_disease",
+              "patterns": ["heart disease", "I have a heart ache", "I need cardiologist", "cardio", "irregular heart beat", "heart problem", "my heart beats fast", "heart attack", "pain near chest", "chest hurts", "chest pain"],
+              "responses": ["Let's see whether you have a heart disease."]
+            }
+]}
+        

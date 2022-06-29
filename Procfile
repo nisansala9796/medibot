@@ -1,0 +1,1 @@
+web: gunicorn medi_bot_api.wsgi --log-file -

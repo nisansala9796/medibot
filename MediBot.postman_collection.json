@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "7d36782d-496a-4c60-af37-e455a5ece921",
+		"name": "MediBot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bot",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pattern\": \"hi\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1.0/medibot/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1.0",
+						"medibot",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Heart Disease Model Predictions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1.0/heart-disease-model/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1.0",
+						"heart-disease-model",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Heart Disease Model Predictions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"age\": 63,\r\n    \"sex\": 1,\r\n    \"cp\": 3,\r\n    \"tresttbps\": 145,\r\n    \"chol\": 233,\r\n    \"fbs\": 1,\r\n    \"restecg\": 0,\r\n    \"thalach\": 150,\r\n    \"exang\": 0,\r\n    \"oldpeak\": 2.3,\r\n    \"slope\": 0,\r\n    \"ca\": 0,\r\n    \"thal\": 1 \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1.0/heart-disease-model/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1.0",
+						"heart-disease-model",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
